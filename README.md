@@ -1,10 +1,10 @@
-# 📚 Repositorio Educativo: Patrones de Diseño
+# Repositorio Educativo: Patrones de Diseño
 
 Este repositorio contiene una colección de patrones de diseño implementados en **Python 3.10+**, con un enfoque educativo, profesional y práctico.
 
 ---
 
-## 🌟 Sección Teórica
+## Sección Teórica
 
 ### ¿Qué entiendes por patrones de diseño y por qué son el lenguaje universal de los programadores?
 
@@ -19,7 +19,7 @@ Aprender patrones es aprender a comunicarte con otros desarrolladores mediante u
 
 ---
 
-## 📂 Patrones Implementados
+## Patrones Implementados
 
 ### 01. [Adapter (Adaptador)](./01_Adapter/payment_adapter.py)
 *   **Problema**: Integrar un sistema moderno (JSON) con uno antiguo (XML) sin modificar el código legacy.
@@ -43,7 +43,7 @@ Aprender patrones es aprender a comunicarte con otros desarrolladores mediante u
 
 ---
 
-## 🚀 Cómo ejecutar los ejemplos
+## Cómo ejecutar los ejemplos
 
 Para probar cualquier patrón, utiliza Python desde tu terminal:
 
