@@ -21,23 +21,23 @@ Aprender patrones es aprender a comunicarte con otros desarrolladores mediante u
 
 ## 📂 Patrones Implementados
 
-### 01. [Adapter (Adaptador)](./Patrones_Diseño/01_Adapter/payment_adapter.py)
+### 01. [Adapter (Adaptador)](./01_Adapter/payment_adapter.py)
 *   **Problema**: Integrar un sistema moderno (JSON) con uno antiguo (XML) sin modificar el código legacy.
 *   **Solución**: Una clase que traduce la interfaz antigua a la esperada por el cliente moderno.
 
-### 02. [Facade (Fachada)](./Patrones_Diseño/02_Facade/home_theater.py)
+### 02. [Facade (Fachada)](./02_Facade/home_theater.py)
 *   **Problema**: Manejar múltiples subsistemas complejos (luces, sonido, proyector) de forma individual.
 *   **Solución**: Una interfaz única y sencilla (`CineEnCasa`) que orquestra todos los subsistemas.
 
-### 03. [Command (Comando)](./Patrones_Diseño/03_Command/smart_bulb.py)
+### 03. [Command (Comando)](./03_Command/smart_bulb.py)
 *   **Problema**: Acoplamiento fuerte entre quien solicita una acción y quien la ejecuta.
 *   **Solución**: Encapsular la petición en un objeto comando independiente.
 
-### 04. [Proxy (Intermediario)](./Patrones_Diseño/04_Proxy/secure_document.py)
+### 04. [Proxy (Intermediario)](./04_Proxy/secure_document.py)
 *   **Problema**: Necesidad de controlar el acceso o añadir seguridad a un objeto sensible.
 *   **Solución**: Un intermediario que valida credenciales antes de delegar al objeto real.
 
-### 05. [State (Estado)](./Patrones_Diseño/05_State/traffic_light.py)
+### 05. [State (Estado)](./05_State/traffic_light.py)
 *   **Problema**: Objetos cuyo comportamiento cambia drásticamente según su estado interno (ej. un semáforo).
 *   **Solución**: Delegar el comportamiento a clases de estado específicas que gestionan las transiciones.
 
@@ -49,7 +49,7 @@ Para probar cualquier patrón, utiliza Python desde tu terminal:
 
 ```bash
 # Ejemplo:
-python Patrones_Diseño/01_Adapter/payment_adapter.py
+python 01_Adapter/payment_adapter.py
 ```
 
 ---
